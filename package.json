@@ -2,6 +2,7 @@
   "name": "puppet-facter",
   "version": "0.0.1",
   "description": "Module to speak to puppet's facter tool",
+  "repository": "https://github.com/olindata/node-puppet-facter",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
