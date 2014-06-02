@@ -1,6 +1,6 @@
 {
   "name": "puppet-facter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Module to speak to puppet's facter tool",
   "repository": "https://github.com/olindata/node-puppet-facter",
   "main": "index.js",
@@ -11,6 +11,13 @@
     "puppet",
     "facter"
   ],
-  "author": "Walter Heck",
+  "author": {
+    "name": "Walter Heck",
+    "email": "walterheck@olindata.com"
+  },
+  "contributors": [ {
+    "name": "Raj Kissu Rajandran",
+    "email": "raj@olindata.com"
+  } ],
   "license": "ISC"
 }
