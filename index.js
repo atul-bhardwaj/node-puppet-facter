@@ -3,6 +3,11 @@ var exec = require('child_process').exec;
 var getFact = function(factName, cb, options) {
   var options = options || {};
 
+  // Sanitize the input to prevent command injection
+  if (!/^[a-zA-Z0-9_]+$/.test(factName) && factName !== 'all') {
+    return cb(new Error('Invalid fact name'));
+  }
+
   if (factName == 'all') {
     factName = '';
   }
